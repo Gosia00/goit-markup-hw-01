@@ -7,6 +7,27 @@
     --ocean: #404BBF;
     --dairy:#E7E9FC;
 }
+.logo-menu-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 72px;
+    border-bottom: 1px solid var(--dairy);
+}
+
+ .logo{
+    text-decoration: none;
+}
+.menu-list{
+    text-decoration: none;
+}
+
+.logo-menu{
+    align-items: center;
+    display: flex;
+    margin-left: 156px;
+}
+
 .web{
     color:var(--iris); 
     font-family: Raleway;
