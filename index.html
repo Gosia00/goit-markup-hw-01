@@ -1,79 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio - Effective Solutions for Your Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>WebStudio</title>
   </head>
-  <!----------------------------------------------------->
+
   <body>
-    <!----------------------Top Line----------------------->
-    <header>
-      <nav>
-        <a class="header-logo" href="./index.html"
-          >Web<span class="header-logo-span">Studio</span>
-        </a>
-        <ul>
-          <li><a class="header-contacts-link" href="./index.html">Studio</a></li>
-          <li><a class="header-contacts-link" href="">Portfolio</a></li>
-          <li><a class="header-contacts-link" href="">Contacts</a></li>
+    <!-- HEADER -->
+    <header class="logo-menu-contacts">
+      <!-- Navigation Bar -->
+      <nav class="logo-menu">
+        <!-- logo -->
+        <a class="logo" href="index.html"><span class="web">WEB</span><span class="studio">STUDIO</span></a>
+        <!-- about -->
+        <ul class="menu">
+          <li><a class="menu-list" href="index.html">Studio</a></li>
+          <li><a class="menu-list" href="portfolio.html">Portfolio</a></li>
+          <li><a class="menu-list" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address class="address-link-address">
-        <ul class="address">
-          <li>
-            <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
+      <!-- How to reach -->
+      <address class="mail-phone">
+          <a class="mail-phone-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="mail-phone-link" href="tel:+110001111111">+11 (000) 111-11-11</a></span>
       </address>
     </header>
-    <main>
-      <!-----------------hero image------------------------->
-      <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
-      </section>
-      <!-----------------section Features-------------------->
 
-      <section class="features">
-        <!---------------------Features--------------------->
-        <h2 class="features-strategy"></h2>
-        <ul>
-          <li>
-            <h3 class="features-header">Strategy</h3>
-            <p class="features-text">
-              Our goal is to identify the business problem to walk away with the perfect and
-              creative solution.
-            </p>
+    <!-- MAIN -->
+    <main>
+      <!-- Hero section-->
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions<br>for Your Business</h1>
+        <button type="button" class="order-button">Order Service</button>
+      </section> 
+      <!-- feature Section -->
+      <section class="feature">
+        <h2 hidden>Feature</h2>
+        <ul class="feature-ul">
+          <li class="feature-list">
+            <h3 class="feature-list-heading">Strategy</h3><p class="feature-list-par">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
           </li>
-          <li>
-            <h3 class="features-header">Punctuality</h3>
-            <p class="features-text">
-              Bring the key message to the brand's audience for the best price within the shortest
-              possible time.
-            </p>
+          <li class="feature-list">
+           <h3 class="feature-list-heading">Punctuality</h3><p class="feature-list-par">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
           </li>
-          <li>
-            <h3 class="features-header">Diligence</h3>
-            <p class="features-text">
-              Research and confirm brands that present the strongest digital growth opportunities
-              and minimize risk.
-            </p>
+          <li class="feature-list">
+            <h3 class="feature-list-heading">Diligence</h3><p class="feature-list-par">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
           </li>
-          <li>
-            <h3 class="features-header">Technologies</h3>
-            <p class="features-text">
-              Design practice focused on digital experiences. We bring forth a deep passion for
-              problem-solving.
-            </p>
+          <li class="feature-list">
+            <h3 class="feature-list-heading">Technologies</h3><p class="feature-list-par">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
           </li>
+        </ul>
+      </section>
+      <!-- services Section -->
+      <section class="services">
+        <h2 class="services-heading">What are we doing</h2>
+        <ul class="services-ul">
+            <li class="services-list">
+              <a href="#"><img src="./images/img1.jpg"  width=360  alt="Monitor showing statistics"></a>
+            </li>
+            <li class="services-list">
+              <a href="#"><img src="./images/img2.jpg" width= 360 alt="Mobile phone showing chat session"></a>
+           </li>
+           <li class="services-list">
+            <a href="#"><img src="./images/img3.jpg" width= 360 alt="Mobile phone and laptop showing sync action"></a>
+           </li>
         </ul>
       </section>
 
