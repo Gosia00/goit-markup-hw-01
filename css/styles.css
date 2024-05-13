@@ -1,64 +1,15 @@
-:root {
-    --white:#FFF;
-    --iris: #4D5AE5;
-    --navyblue: #2E2F42;
-    --slate: #434455;
-    --cloud: #F4F4FD;
-    --ocean: #404BBF;
-    --dairy:#E7E9FC;
-}
-.logo-menu-contacts {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 72px;
-    border-bottom: 1px solid var(--dairy);
-}
-
- .logo{
-    text-decoration: none;
-}
-.menu-list{
-    text-decoration: none;
-}
-
-.logo-menu{
-    align-items: center;
-    display: flex;
-    margin-left: 156px;
-}
-
-.web{
-    color:var(--iris); 
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.2; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
-.studio{
-    color: var(--navyblue);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.2; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
-
-
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-background: #FFFFFF;
+        font-family: "Roboto", sans-serif;
+        Color: #434455;
+        background: #FFF;
 }
 ul {
-    list-style-type: none;
+        list-style-type: none;
 }
 a {
-    text-decoration: none;
+        text-decoration: none;
 }
+
 .header-logo,
 .footer-logo
 {       
